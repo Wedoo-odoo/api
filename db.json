@@ -29,7 +29,7 @@
             }
         ]
     },
-    "comments": [
+    "comments/test1/test2": [
         {
             "id": 1,
             "body": "some comment",
