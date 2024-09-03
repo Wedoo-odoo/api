@@ -1,32 +1,31 @@
 {
-  "api/customers" :[
-    "CustomersList": [
-      {
-        "POSTALCODE": "09100",
-        "CLIENTGROUPID": 2,
-        "CURRENCY": "PLN",
-        "DISCOUNTPERCENT": 0.0,
-        "ISCOMPANY": 0,
-        "DELIVERYMETHODID": 0,
-        "HOUSENO": "10",
-        "PHONE": "602272041",
-        "STREET": "Długa",
-        "EMAIL": "test@test.pl",
-        "ISACTIVE": 1,
-        "REGISTRATIONDATE": "2004-12-12T00:00:00",
-        "NAME": "Sprzedaż detaliczna ",
-        "CREDITLIMIT": 1.0E10,
-        "PAYMENTMETHODID": 0,
-        "CREDITLIMITCURRENCY":"COUNTRYCODE": "PL",
-        "CITY": "Płońsk",
-        "SELLERID": 0,
-        "DESCRIPTION": "",
-        "TAXID": ".",
-        "LOCALNO": "6",
-        "ID": 86016
-      }
-    ],
-    "NextRecordId": 86064
-  ]
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
-    
