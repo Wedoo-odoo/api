@@ -1,8 +1,7 @@
 {
     "login": {},
     "customers": {
-        "CustomersList": [
-            {
+        "CustomersList": [{
                 "POSTALCODE": "09100",
                 "CLIENTGROUPID": 2,
                 "CURRENCY": "PLN",
@@ -30,79 +29,121 @@
         ]
     },
     "v2": {
-		"orders": {
-			"OrdersList":[
-				{
-					"CURRENCY": "PLN",
-					"REALISATIONDATE": "0001-01-01T00:00:00",
-					"DELIVERYMETHODID": 5,
-					"GROSSVALUE": 738.0,
-					"ORDERTYPE": "ZAM",
-					"REGISTRATIONDATE": "2022-12-21T00:00:00",
-					"NETVALUE": 600.0,
-					"EXTERNALSYMBOL": "JOHYdoKGelNdsYSe",
-					"STATUSID": 15,
-					"POSITIONS": [
-						{
-							"CURRENCY": "PLN",
-							"NETPRICE": 60.0,
-							"WAREHOUSE": "MAG",
-							"GROSSVALUE": 738.0,
-							"QUANTITY": 10.0,
-							"PRODUCTID": 397440,
-							"PRODUCTNAME": "Torba podróżna",
-							"CURRENCYEXCHANGERATE": 1.0,
-							"DISCOUNTPERCENTGRANTED": 0.0,
-							"NETVALUE": 600.0,
-							"PRODUCTUNITID": 287456,
-							"ID": 3,
-							"GROSSPRICE": 73.8,
-							"TAXRATE": "23",
-							"EXTERNALID": "LRGlJmhagNjshoPg"
-						}
-					],
-					"BRANCHSYMBOL": "CENTRALA",
-					"PAYER": {
-						"POSTALCODE": "",
-						"CITY": "Wrocław",
-						"COUNTRYCODE": "PL",
-						"HOUSENO": "",
-						"PHONE": "",
-						"TAXID": "1234567891",
-						"ID": 194688,
-						"LOCALNO": "",
-						"STREET": "",
-						"EMAIL": "",
-						"NAME": "Texas Services"
-					},
-					"SYMBOL": "ZAM\/1\/122022",
-					"DESCRIPTION": "BxkFlOMToigxDnpk",
-					"SELLERID": 0,
-					"CUSTOMER": {
-						"POSTALCODE": "",
-						"CITY": "Wrocław",
-						"COUNTRYCODE": "PL",
-						"HOUSENO": "",
-						"PHONE": "",
-						"TAXID": "1234567891",
-						"ID": 194688,
-						"LOCALNO": "",
-						"STREET": "",
-						"EMAIL": "",
-						"NAME": "Texas Services"
-					},
-					"ID": 5,
-					"PLANNEDREALIZATIONDATE": "2022-12-21T00:00:00",
-					"VATSUMMARY": [
-						  {
-							  "VATVALUE": 138.0,
-							  "GROSSVALUE": 738.0,
-							  "NETVALUE": 600.0,
-							  "TAXRATE": "23"
-						  }
-					]
-				}
-			]
-		}
+        "orders": {
+            "OrdersList": [{
+                    "CURRENCY": "PLN",
+                    "REALISATIONDATE": "0001-01-01T00:00:00",
+                    "DELIVERYMETHODID": 5,
+                    "GROSSVALUE": 738.0,
+                    "ORDERTYPE": "ZAM",
+                    "REGISTRATIONDATE": "2022-12-21T00:00:00",
+                    "NETVALUE": 600.0,
+                    "EXTERNALSYMBOL": "JOHYdoKGelNdsYSe",
+                    "STATUSID": 15,
+                    "POSITIONS": [{
+                            "CURRENCY": "PLN",
+                            "NETPRICE": 60.0,
+                            "WAREHOUSE": "MAG",
+                            "GROSSVALUE": 738.0,
+                            "QUANTITY": 10.0,
+                            "PRODUCTID": 397440,
+                            "PRODUCTNAME": "Torba podróżna",
+                            "CURRENCYEXCHANGERATE": 1.0,
+                            "DISCOUNTPERCENTGRANTED": 0.0,
+                            "NETVALUE": 600.0,
+                            "PRODUCTUNITID": 287456,
+                            "ID": 3,
+                            "GROSSPRICE": 73.8,
+                            "TAXRATE": "23",
+                            "EXTERNALID": "LRGlJmhagNjshoPg"
+                        }
+                    ],
+                    "BRANCHSYMBOL": "CENTRALA",
+                    "PAYER": {
+                        "POSTALCODE": "",
+                        "CITY": "Wrocław",
+                        "COUNTRYCODE": "PL",
+                        "HOUSENO": "",
+                        "PHONE": "",
+                        "TAXID": "1234567891",
+                        "ID": 194688,
+                        "LOCALNO": "",
+                        "STREET": "",
+                        "EMAIL": "",
+                        "NAME": "Texas Services"
+                    },
+                    "SYMBOL": "ZAM\/1\/122022",
+                    "DESCRIPTION": "BxkFlOMToigxDnpk",
+                    "SELLERID": 0,
+                    "CUSTOMER": {
+                        "POSTALCODE": "",
+                        "CITY": "Wrocław",
+                        "COUNTRYCODE": "PL",
+                        "HOUSENO": "",
+                        "PHONE": "",
+                        "TAXID": "1234567891",
+                        "ID": 194688,
+                        "LOCALNO": "",
+                        "STREET": "",
+                        "EMAIL": "",
+                        "NAME": "Texas Services"
+                    },
+                    "ID": 5,
+                    "PLANNEDREALIZATIONDATE": "2022-12-21T00:00:00",
+                    "VATSUMMARY": [{
+                            "VATVALUE": 138.0,
+                            "GROSSVALUE": 738.0,
+                            "NETVALUE": 600.0,
+                            "TAXRATE": "23"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "warehousedocuments": {
+        "WarehouseDocumentsList": [{
+                "DocumentPositions": [{
+                        "PRODUCTUNITID": 289776,
+                        "QUANTITY": 50.0,
+                        "DETAILS": [{
+                                "LOT": 1,
+                                "CURRENCY": "PLN",
+                                "PRICE": 7.0,
+                                "ID": 1,
+                                "VALUE": 350.0
+                            }
+                        ],
+                        "ID": 1,
+                        "PRODUCTID": 399504
+                    }
+                ],
+                "DocumentHeader": {
+                    "DOCUMENTSGROUP": 1,
+                    "POSTALCODE": "54-098",
+                    "INVOICEID": 0,
+                    "DELIVERYMETHOD": 0,
+                    "HOUSENO": "",
+                    "VOLUME": 6260.4,
+                    "STREET": "1-ego",
+                    "CLIENTID": 0,
+                    "REGISTRATIONDATE": "2023-05-23T00:00:00",
+                    "WAREHOUSESYMBOL": "MAG",
+                    "ORDERID": 0,
+                    "BRANCHSYMBOL": "CENTRALA",
+                    "SYMBOL": "MAG-PZ-1-202305",
+                    "CITY": "Opole",
+                    "COUNTRYCODE": "NL",
+                    "DESCRIPTION": "",
+                    "SUPLLIERID": 40928,
+                    "ID": 1,
+                    "CORRECTEDDOCUMENTID": 0,
+                    "LOCALNO": "",
+                    "PLANNEDREALIZATIONDATE": "2023-05-23T00:00:00",
+                    "WEIGHT": 6.5,
+                    "DOCUMNETTYPE": "PZ "
+                }
+            }
+        ]
     }
 }
