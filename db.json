@@ -1,151 +1,123 @@
 {
-    "login": {},
-    "customers": {
-        "CustomersList": [{
-                "POSTALCODE": "09100",
-                "CLIENTGROUPID": 2,
-                "CURRENCY": "PLN",
-                "DISCOUNTPERCENT": 0,
-                "ISCOMPANY": 0,
-                "DELIVERYMETHODID": 0,
-                "HOUSENO": "10",
-                "PHONE": "602272041",
-                "STREET": "Długa",
-                "EMAIL": "test@test.pl",
-                "ISACTIVE": 1,
-                "REGISTRATIONDATE": "2004-12-12T00:00:00",
-                "NAME": "Sprzedaż detaliczna ",
-                "CREDITLIMIT": 10000000000,
-                "PAYMENTMETHODID": 0,
-                "CREDITLIMITCURRENCY": "PLN",
-                "COUNTRYCODE": "PL",
-                "CITY": "Płońsk",
-                "SELLERID": 0,
-                "DESCRIPTION": "",
-                "TAXID": "883-181-74-46",
-                "LOCALNO": "6",
-                "ID": 86016
-            }
-        ]
-    },
-    "v2": {
-        "orders": {
-            "OrdersList": [{
-                    "CURRENCY": "PLN",
-                    "REALISATIONDATE": "0001-01-01T00:00:00",
-                    "DELIVERYMETHODID": 5,
-                    "GROSSVALUE": 738.0,
-                    "ORDERTYPE": "ZAM",
-                    "REGISTRATIONDATE": "2022-12-21T00:00:00",
-                    "NETVALUE": 600.0,
-                    "EXTERNALSYMBOL": "JOHYdoKGelNdsYSe",
-                    "STATUSID": 15,
-                    "POSITIONS": [{
-                            "CURRENCY": "PLN",
-                            "NETPRICE": 60.0,
-                            "WAREHOUSE": "MAG",
-                            "GROSSVALUE": 738.0,
-                            "QUANTITY": 10.0,
-                            "PRODUCTID": 397440,
-                            "PRODUCTNAME": "Torba podróżna",
-                            "CURRENCYEXCHANGERATE": 1.0,
-                            "DISCOUNTPERCENTGRANTED": 0.0,
-                            "NETVALUE": 600.0,
-                            "PRODUCTUNITID": 287456,
-                            "ID": 3,
-                            "GROSSPRICE": 73.8,
-                            "TAXRATE": "23",
-                            "EXTERNALID": "LRGlJmhagNjshoPg"
-                        }
-                    ],
-                    "BRANCHSYMBOL": "CENTRALA",
-                    "PAYER": {
-                        "POSTALCODE": "",
-                        "CITY": "Wrocław",
-                        "COUNTRYCODE": "PL",
-                        "HOUSENO": "",
-                        "PHONE": "",
-                        "TAXID": "1234567891",
-                        "ID": 194688,
-                        "LOCALNO": "",
-                        "STREET": "",
-                        "EMAIL": "",
-                        "NAME": "Texas Services"
-                    },
-                    "SYMBOL": "ZAM\/1\/122022",
-                    "DESCRIPTION": "BxkFlOMToigxDnpk",
-                    "SELLERID": 0,
-                    "CUSTOMER": {
-                        "POSTALCODE": "",
-                        "CITY": "Wrocław",
-                        "COUNTRYCODE": "PL",
-                        "HOUSENO": "",
-                        "PHONE": "",
-                        "TAXID": "1234567891",
-                        "ID": 194688,
-                        "LOCALNO": "",
-                        "STREET": "",
-                        "EMAIL": "",
-                        "NAME": "Texas Services"
-                    },
-                    "ID": 5,
-                    "PLANNEDREALIZATIONDATE": "2022-12-21T00:00:00",
-                    "VATSUMMARY": [{
-                            "VATVALUE": 138.0,
-                            "GROSSVALUE": 738.0,
-                            "NETVALUE": 600.0,
-                            "TAXRATE": "23"
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "warehousedocuments": {
-        "WarehouseDocumentsList": [{
-                "DocumentPositions": [{
-                        "PRODUCTUNITID": 289776,
-                        "QUANTITY": 50.0,
-                        "DETAILS": [{
-                                "LOT": 1,
-                                "CURRENCY": "PLN",
-                                "PRICE": 7.0,
-                                "ID": 1,
-                                "VALUE": 350.0
-                            }
-                        ],
-                        "ID": 1,
-                        "PRODUCTID": 399504
-                    }
-                ],
-                "DocumentHeader": {
-                    "DOCUMENTSGROUP": 1,
-                    "POSTALCODE": "54-098",
-                    "INVOICEID": 0,
-                    "DELIVERYMETHOD": 0,
-                    "HOUSENO": "",
-                    "VOLUME": 6260.4,
-                    "STREET": "1-ego",
-                    "CLIENTID": 0,
-                    "REGISTRATIONDATE": "2023-05-23T00:00:00",
-                    "WAREHOUSESYMBOL": "MAG",
-                    "ORDERID": 0,
-                    "BRANCHSYMBOL": "CENTRALA",
-                    "SYMBOL": "MAG-PZ-1-202305",
-                    "CITY": "Opole",
-                    "COUNTRYCODE": "NL",
-                    "DESCRIPTION": "",
-                    "SUPLLIERID": 40928,
-                    "ID": 1,
-                    "CORRECTEDDOCUMENTID": 0,
-                    "LOCALNO": "",
-                    "PLANNEDREALIZATIONDATE": "2023-05-23T00:00:00",
-                    "WEIGHT": 6.5,
-                    "DOCUMNETTYPE": "PZ "
-                }
-            }
-        ]
-    },
+	"login": {},
+	"customers": {
+		"CustomersList": [{
+				"POSTALCODE": "09100",
+				"CLIENTGROUPID": 2,
+				"CURRENCY": "PLN",
+				"DISCOUNTPERCENT": 0,
+				"ISCOMPANY": 0,
+				"DELIVERYMETHODID": 0,
+				"HOUSENO": "10",
+				"PHONE": "602272041",
+				"STREET": "Długa",
+				"EMAIL": "test@test.pl",
+				"ISACTIVE": 1,
+				"REGISTRATIONDATE": "2004-12-12T00:00:00",
+				"NAME": "Sprzedaż detaliczna ",
+				"CREDITLIMIT": 10000000000,
+				"PAYMENTMETHODID": 0,
+				"CREDITLIMITCURRENCY": "PLN",
+				"COUNTRYCODE": "PL",
+				"CITY": "Płońsk",
+				"SELLERID": 0,
+				"DESCRIPTION": "",
+				"TAXID": "883-181-74-46",
+				"LOCALNO": "6",
+				"ID": 86016
+			}
+		]
+	},
+	"products": {
+		"Products": [{
+				"VISIBILITY": 0,
+				"ProductsBarcodes": [{
+						"PRODUCTUNITID": 0,
+						"ISMAIN": 1,
+						"BARCODE": "1234567890132"
+					}
+				],
+				"GRUPA": "Podstawowa",
+				"SYMBOL": "0000000289",
+				"Categories": [
+				],
+				"ProductsAttributes": [
+				],
+				"ProductPrices": [
+				],
+				"ID": 409200,
+				"ISACTIVE": 1,
+				"ProductsUnits": [{
+						"UNITHEIGHT": 0.0,
+						"ISMAIN": 1,
+						"WEIGHTMATERIAL": 0.0,
+						"UNITVOLUME": 0.0,
+						"WEIGHTOTHER": 0.0,
+						"WEIGHTPAPER": 0.0,
+						"WEIGHTGROSS": 0.0,
+						"UNITLENGTH": 0.0,
+						"SYMBOL": "szt",
+						"converterRatio": {
+							"NUMERATOR": 1.0,
+							"DENOMINATOR": 1.0
+						},
+						"WEIGHTWOOD": 0.0,
+						"WEIGHTGLASS": 0.0,
+						"ID": 299920,
+						"WEIGHT": 0.0,
+						"UNITWIDTH": 0.0,
+						"WEIGHTALUMINIUM": 0.0
+					}
+				],
+				"NAME": "Stacja dysków"
+			}
+		]
+	},
+	"warehousedocuments": {
+		"WarehouseDocumentsList": [{
+				"DocumentPositions": [{
+						"PRODUCTUNITID": 289776,
+						"QUANTITY": 50.0,
+						"DETAILS": [{
+								"LOT": 1,
+								"CURRENCY": "PLN",
+								"PRICE": 7.0,
+								"ID": 1,
+								"VALUE": 350.0
+							}
+						],
+						"ID": 1,
+						"PRODUCTID": 399504
+					}
+				],
+				"DocumentHeader": {
+					"DOCUMENTSGROUP": 1,
+					"POSTALCODE": "54-098",
+					"INVOICEID": 0,
+					"DELIVERYMETHOD": 0,
+					"HOUSENO": "",
+					"VOLUME": 6260.4,
+					"STREET": "1-ego",
+					"CLIENTID": 0,
+					"REGISTRATIONDATE": "2023-05-23T00:00:00",
+					"WAREHOUSESYMBOL": "MAG",
+					"ORDERID": 0,
+					"BRANCHSYMBOL": "CENTRALA",
+					"SYMBOL": "MAG-PZ-1-202305",
+					"CITY": "Opole",
+					"COUNTRYCODE": "NL",
+					"DESCRIPTION": "",
+					"SUPLLIERID": 40928,
+					"ID": 1,
+					"CORRECTEDDOCUMENTID": 0,
+					"LOCALNO": "",
+					"PLANNEDREALIZATIONDATE": "2023-05-23T00:00:00",
+					"WEIGHT": 6.5,
+					"DOCUMNETTYPE": "PZ "
+				}
+			}
+		]
+	},
 	"stocks": {
 		"StocksList": [
 		{
