@@ -142,13 +142,43 @@
 			}
 		]
 	},
-	"productsattributes": {
-		"ProductsAttributesList": [
+	"productprices": {
+		"ProductPrices": [
 			{
-				"CODE": "",
-				"ATTRIBUTESYMBOL": "B2B",
-				"PRODUCTID": 409200,
-				"ATTRIBUTEVALUE": "1"
+				"PRICES": [
+					{
+						"CURRENCY": "PLN",
+						"NETPRICE": 54.11,
+						"PRICELISTID": 16,
+						"GROSSPRICE": 66.56
+					},
+					{
+						"CURRENCY": "PLN",
+						"NETPRICE": 5.0,
+						"PRICELISTID": 32,
+						"GROSSPRICE": 6.15
+					}
+				],
+				"PROODUCTUNITID": 1,
+				"PRODUCTID": 409200
+			},
+			{
+				"PRICES": [
+					{
+						"CURRENCY": "PLN",
+						"NETPRICE": 11.26,
+						"PRICELISTID": 16,
+						"GROSSPRICE": 13.85
+					},
+					{
+						"CURRENCY": "PLN",
+						"NETPRICE": 12.67,
+						"PRICELISTID": 32,
+						"GROSSPRICE": 15.58
+					}
+				],
+				"PROODUCTUNITID": 3,
+				"PRODUCTID": 235408
 			}
 		]
 	}
