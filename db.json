@@ -1,5 +1,29 @@
 {
-	"login": {},
+	"productsunits": {
+		"ProductsUnits": [{
+				"PRODUCTID": 409200
+				"UNITHEIGHT": 0.0,
+				"ISMAIN": 1,
+				"WEIGHTMATERIAL": 0.0,
+				"UNITVOLUME": 0.0,
+				"WEIGHTOTHER": 0.0,
+				"WEIGHTPAPER": 0.0,
+				"WEIGHTGROSS": 0.0,
+				"UNITLENGTH": 0.0,
+				"SYMBOL": "szt",
+				"converterRatio": {
+					"NUMERATOR": 1.0,
+					"DENOMINATOR": 1.0
+				},
+				"WEIGHTWOOD": 0.0,
+				"WEIGHTGLASS": 0.0,
+				"ID": 299920,
+				"WEIGHT": 0.0,
+				"UNITWIDTH": 0.0,
+				"WEIGHTALUMINIUM": 0.0
+			}
+		],
+	},
 	"customers": {
 		"CustomersList": [{
 				"POSTALCODE": "09100",
