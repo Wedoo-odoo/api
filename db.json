@@ -142,18 +142,14 @@
 			}
 		]
 	},
-	"stocks": {
-		"StocksList": [
-		{
-			"WAREHOUSESYMBOL": "MAG",
-			"QUANTITYBLOCKED": 0.0,
-			"PRODUCTUNITID": 289776,
-			"QUANTITYORDERED": 0.0,
-			"QUANTITYRESERVED": 0.0,
-			"QUANTITY": 47.0,
-			"PRODUCTUNITSYMBOL": "szt",
-			"PRODUCTID": 399504,
-			"QUANTITYWAREHOUSE": 47.0
-		}]
+	"productsattributes": {
+		"ProductsAttributesList": [
+			{
+				"CODE": "",
+				"ATTRIBUTESYMBOL": "B2B",
+				"PRODUCTID": 400944,
+				"ATTRIBUTEVALUE": "1"
+			}
+		]
 	}
 }
