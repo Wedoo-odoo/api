@@ -24,31 +24,13 @@
 			}
 		]
 	},
-	"customers": {
-		"CustomersList": [{
-				"POSTALCODE": "09100",
-				"CLIENTGROUPID": 2,
-				"CURRENCY": "PLN",
-				"DISCOUNTPERCENT": 0,
-				"ISCOMPANY": 0,
-				"DELIVERYMETHODID": 0,
-				"HOUSENO": "10",
-				"PHONE": "602272041",
-				"STREET": "Długa",
-				"EMAIL": "test@test.pl",
-				"ISACTIVE": 1,
-				"REGISTRATIONDATE": "2004-12-12T00:00:00",
-				"NAME": "Sprzedaż detaliczna ",
-				"CREDITLIMIT": 10000000000,
-				"PAYMENTMETHODID": 0,
-				"CREDITLIMITCURRENCY": "PLN",
-				"COUNTRYCODE": "PL",
-				"CITY": "Płońsk",
-				"SELLERID": 0,
-				"DESCRIPTION": "",
-				"TAXID": "883-181-74-46",
-				"LOCALNO": "6",
-				"ID": 86016
+	"productsattributes": {
+		"ProductsAttributesList": [
+			{
+				"CODE": "",
+				"ATTRIBUTESYMBOL": "B2B",
+				"PRODUCTID": 409200,
+				"ATTRIBUTEVALUE": "1"
 			}
 		]
 	},
