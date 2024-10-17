@@ -80,49 +80,974 @@
 		]
 	},
 	"warehousedocuments": {
-		"WarehouseDocumentsList": [{
-				"DocumentPositions": [{
-						"PRODUCTUNITID": 289776,
-						"QUANTITY": 50.0,
-						"DETAILS": [{
-								"LOT": 1,
-								"CURRENCY": "PLN",
-								"PRICE": 7.0,
-								"ID": 1,
-								"VALUE": 350.0
-							}
-						],
-						"ID": 1,
-						"PRODUCTID": 399504
-					}
-				],
-				"DocumentHeader": {
-					"DOCUMENTSGROUP": 1,
-					"POSTALCODE": "54-098",
-					"INVOICEID": 0,
-					"DELIVERYMETHOD": 0,
-					"HOUSENO": "",
-					"VOLUME": 6260.4,
-					"STREET": "1-ego",
-					"CLIENTID": 0,
-					"REGISTRATIONDATE": "2023-05-23T00:00:00",
-					"WAREHOUSESYMBOL": "MAG",
-					"ORDERID": 0,
-					"BRANCHSYMBOL": "CENTRALA",
-					"SYMBOL": "MAG-PZ-1-202305",
-					"CITY": "Opole",
-					"COUNTRYCODE": "NL",
-					"DESCRIPTION": "",
-					"SUPLLIERID": 40928,
-					"ID": 1,
-					"CORRECTEDDOCUMENTID": 0,
-					"LOCALNO": "",
-					"PLANNEDREALIZATIONDATE": "2023-05-23T00:00:00",
-					"WEIGHT": 6.5,
-					"DOCUMNETTYPE": "PZ "
-				}
-			}
-		]
+    "WAREHOUSEDOCUMENTSLIST": [{
+	            "DOCUMENTHEADER": {
+	                "ID": 372876,
+	                "SYMBOL": "SA0-WZ-609-2023",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "WZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 37917,
+	                "INVOICEID": 0,
+	                "ORDERID": 401165,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 5,
+	                "DOCUMENTSGROUP": 372876,
+	                "DESCRIPTION": "",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "",
+	                "HOUSENO": "",
+	                "LOCALNO": "",
+	                "POSTALCODE": "",
+	                "CITY": "",
+	                "COUNTRYCODE": "",
+	                "INTERNALDESCRIPTION": "",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 10,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "Piotr Frydenberg ",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "Spedycja",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2023-11-15T00:00:00",
+	                "REGISTRATIONDATE": "2023-11-15T00:00:00",
+	                "RELEASEDATE": "2023-11-15T00:00:00",
+	                "ORDERDATE": "2023-11-15T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2031445,
+	                    "PRODUCTID": 4403,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 19700,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "195713015417",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 5849,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 372895,
+	                "SYMBOL": "SA0-WZ-611-2023",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "WZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 37917,
+	                "INVOICEID": 0,
+	                "ORDERID": 401182,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 3,
+	                "DOCUMENTSGROUP": 372895,
+	                "DESCRIPTION": "r7",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "dabrowskiego",
+	                "HOUSENO": "5",
+	                "LOCALNO": "",
+	                "POSTALCODE": "70-100",
+	                "CITY": "szczecin",
+	                "COUNTRYCODE": "",
+	                "INTERNALDESCRIPTION": "",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 20,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "sarach",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "Odbiór osobisty",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2023-11-15T00:00:00",
+	                "REGISTRATIONDATE": "2023-11-15T00:00:00",
+	                "RELEASEDATE": "2023-11-15T00:00:00",
+	                "ORDERDATE": "2023-11-15T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2031612,
+	                    "PRODUCTID": 4014,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 18859,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "4977766807258",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 7281,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 390349,
+	                "SYMBOL": "SA0-PZ-11-2024",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "PZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 0,
+	                "INVOICEID": 0,
+	                "ORDERID": 431018,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 5,
+	                "DOCUMENTSGROUP": 390349,
+	                "DESCRIPTION": "ZT7; nr zamówienia: 7056926669",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "Stobno",
+	                "HOUSENO": "74",
+	                "LOCALNO": "",
+	                "POSTALCODE": "72-002",
+	                "CITY": "Stobno",
+	                "COUNTRYCODE": "PL",
+	                "INTERNALDESCRIPTION": "",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 20,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "P.P.U.H.SARACH Jacek Biernat",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2024-01-08T00:00:00",
+	                "REGISTRATIONDATE": "2024-01-08T00:00:00",
+	                "ORDERDATE": "2024-01-08T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2151148,
+	                    "PRODUCTID": 5572,
+	                    "QUANTITY": 4.0,
+	                    "CORRECTEDQUANTITY": 4.0,
+	                    "PRODUCTUNITID": 22524,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9255,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2151149,
+	                    "PRODUCTID": 5573,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 22525,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9255,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 395689,
+	                "SYMBOL": "SA0-PZ-30-2024",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "PZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 0,
+	                "INVOICEID": 0,
+	                "ORDERID": 438748,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 5,
+	                "DOCUMENTSGROUP": 395689,
+	                "DESCRIPTION": "zt3",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "Stobno",
+	                "HOUSENO": "74",
+	                "LOCALNO": "",
+	                "POSTALCODE": "72-002",
+	                "CITY": "Stobno",
+	                "COUNTRYCODE": "PL",
+	                "INTERNALDESCRIPTION": "",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 20,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "P.P.U.H.SARACH Jacek Biernat",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2024-01-25T00:00:00",
+	                "REGISTRATIONDATE": "2024-01-25T00:00:00",
+	                "ORDERDATE": "2024-01-25T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2186204,
+	                    "PRODUCTID": 4697,
+	                    "QUANTITY": 1390.0,
+	                    "CORRECTEDQUANTITY": 1390.0,
+	                    "PRODUCTUNITID": 20375,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9476,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 395695,
+	                "SYMBOL": "SA0-WZ-61-2024",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "WZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 37917,
+	                "INVOICEID": 0,
+	                "ORDERID": 438761,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 3,
+	                "DOCUMENTSGROUP": 395695,
+	                "DESCRIPTION": "r1",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "dabrowskiego",
+	                "HOUSENO": "5",
+	                "LOCALNO": "",
+	                "POSTALCODE": "70-100",
+	                "CITY": "szczecin",
+	                "COUNTRYCODE": "",
+	                "INTERNALDESCRIPTION": "",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 10,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "sarach",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "Odbiór osobisty",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2024-01-25T00:00:00",
+	                "REGISTRATIONDATE": "2024-01-25T00:00:00",
+	                "RELEASEDATE": "2024-01-25T00:00:00",
+	                "ORDERDATE": "2024-01-25T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2186221,
+	                    "PRODUCTID": 5647,
+	                    "QUANTITY": 2.0,
+	                    "CORRECTEDQUANTITY": 2.0,
+	                    "PRODUCTUNITID": 22756,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "196378838656",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9426,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2186222,
+	                    "PRODUCTID": 4325,
+	                    "QUANTITY": 3.0,
+	                    "CORRECTEDQUANTITY": 3.0,
+	                    "PRODUCTUNITID": 19461,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "5903886209886",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 8918,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2186223,
+	                    "PRODUCTID": 4586,
+	                    "QUANTITY": 6.0,
+	                    "CORRECTEDQUANTITY": 6.0,
+	                    "PRODUCTUNITID": 20229,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "196801904989",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9021,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2186224,
+	                    "PRODUCTID": 4015,
+	                    "QUANTITY": 100.0,
+	                    "CORRECTEDQUANTITY": 100.0,
+	                    "PRODUCTUNITID": 18860,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "4716123315322",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 5104,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2186225,
+	                    "PRODUCTID": 4380,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 19612,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "196804967189",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 6509,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2186226,
+	                    "PRODUCTID": 3904,
+	                    "QUANTITY": 20.0,
+	                    "CORRECTEDQUANTITY": 20.0,
+	                    "PRODUCTUNITID": 18749,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "4043718214402",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9426,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2186227,
+	                    "PRODUCTID": 5380,
+	                    "QUANTITY": 40.0,
+	                    "CORRECTEDQUANTITY": 40.0,
+	                    "PRODUCTUNITID": 22006,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "5099206066977",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9426,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 406425,
+	                "SYMBOL": "SA0-PZ-73-2024",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "PZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 0,
+	                "INVOICEID": 0,
+	                "ORDERID": 450809,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 5,
+	                "DOCUMENTSGROUP": 406425,
+	                "DESCRIPTION": "ZT32; nr zamówienia: I039302709",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "Stobno",
+	                "HOUSENO": "74",
+	                "LOCALNO": "",
+	                "POSTALCODE": "72-002",
+	                "CITY": "Stobno",
+	                "COUNTRYCODE": "PL",
+	                "INTERNALDESCRIPTION": "",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 20,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "P.P.U.H.SARACH Jacek Biernat",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2024-02-26T00:00:00",
+	                "REGISTRATIONDATE": "2024-02-26T00:00:00",
+	                "ORDERDATE": "2024-02-26T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2252473,
+	                    "PRODUCTID": 5658,
+	                    "QUANTITY": 6.0,
+	                    "CORRECTEDQUANTITY": 6.0,
+	                    "PRODUCTUNITID": 22776,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9868,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 411835,
+	                "SYMBOL": "SA0-WZ-204-2024",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "WZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 37917,
+	                "INVOICEID": 0,
+	                "ORDERID": 456132,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 3,
+	                "DOCUMENTSGROUP": 411835,
+	                "DESCRIPTION": "r1",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "dabrowskiego",
+	                "HOUSENO": "5",
+	                "LOCALNO": "",
+	                "POSTALCODE": "70-100",
+	                "CITY": "szczecin",
+	                "COUNTRYCODE": "",
+	                "INTERNALDESCRIPTION": "",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 1,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "sarach",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "Odbiór osobisty",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2024-03-12T00:00:00",
+	                "REGISTRATIONDATE": "2024-03-12T00:00:00",
+	                "RELEASEDATE": "2024-03-12T00:00:00",
+	                "ORDERDATE": "2024-03-12T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2286160,
+	                    "PRODUCTID": 5658,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 22776,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "5397184657256",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9868,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286161,
+	                    "PRODUCTID": 5670,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 22812,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "197529343067",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9534,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286162,
+	                    "PRODUCTID": 4002,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 18847,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "195348677325",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9650,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286163,
+	                    "PRODUCTID": 4011,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 18856,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "7640186418867",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9199,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286164,
+	                    "PRODUCTID": 4586,
+	                    "QUANTITY": 2.0,
+	                    "CORRECTEDQUANTITY": 2.0,
+	                    "PRODUCTUNITID": 20229,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "196801904989",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9021,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286165,
+	                    "PRODUCTID": 5380,
+	                    "QUANTITY": 20.0,
+	                    "CORRECTEDQUANTITY": 20.0,
+	                    "PRODUCTUNITID": 22006,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "5099206066977",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9920,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286166,
+	                    "PRODUCTID": 4307,
+	                    "QUANTITY": 2.0,
+	                    "CORRECTEDQUANTITY": 2.0,
+	                    "PRODUCTUNITID": 19417,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "888182569252",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9364,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286167,
+	                    "PRODUCTID": 4587,
+	                    "QUANTITY": 20.0,
+	                    "CORRECTEDQUANTITY": 20.0,
+	                    "PRODUCTUNITID": 20230,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "5028252290401",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 6645,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286168,
+	                    "PRODUCTID": 3959,
+	                    "QUANTITY": 2.0,
+	                    "CORRECTEDQUANTITY": 2.0,
+	                    "PRODUCTUNITID": 18804,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "195477679139",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9426,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286169,
+	                    "PRODUCTID": 4380,
+	                    "QUANTITY": 2.0,
+	                    "CORRECTEDQUANTITY": 2.0,
+	                    "PRODUCTUNITID": 19612,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "196804967189",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 6509,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286170,
+	                    "PRODUCTID": 5377,
+	                    "QUANTITY": 2.0,
+	                    "CORRECTEDQUANTITY": 2.0,
+	                    "PRODUCTUNITID": 22003,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "8535951",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9874,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286171,
+	                    "PRODUCTID": 4056,
+	                    "QUANTITY": 6.0,
+	                    "CORRECTEDQUANTITY": 6.0,
+	                    "PRODUCTUNITID": 18973,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9650,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }, {
+	                            "ID": 2,
+	                            "LOT": 9945,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286172,
+	                    "PRODUCTID": 4524,
+	                    "QUANTITY": 3.0,
+	                    "CORRECTEDQUANTITY": 3.0,
+	                    "PRODUCTUNITID": 20049,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "197529785393",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9227,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286173,
+	                    "PRODUCTID": 4003,
+	                    "QUANTITY": 2.0,
+	                    "CORRECTEDQUANTITY": 2.0,
+	                    "PRODUCTUNITID": 18848,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "195348192095",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 8002,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286174,
+	                    "PRODUCTID": 4586,
+	                    "QUANTITY": 4.0,
+	                    "CORRECTEDQUANTITY": 4.0,
+	                    "PRODUCTUNITID": 20229,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "196801904989",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 9021,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }, {
+	                    "ID": 2286175,
+	                    "PRODUCTID": 4403,
+	                    "QUANTITY": 2.0,
+	                    "CORRECTEDQUANTITY": 2.0,
+	                    "PRODUCTUNITID": 19700,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "195713015417",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 5849,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 415863,
+	                "SYMBOL": "SA0-WZ-246-2024",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "WZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 37917,
+	                "INVOICEID": 0,
+	                "ORDERID": 460258,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 3,
+	                "DOCUMENTSGROUP": 415863,
+	                "DESCRIPTION": "r15",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "dabrowskiego",
+	                "HOUSENO": "5",
+	                "LOCALNO": "",
+	                "POSTALCODE": "70-100",
+	                "CITY": "szczecin",
+	                "COUNTRYCODE": "",
+	                "INTERNALDESCRIPTION": "",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 10,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "sarach",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "Odbiór osobisty",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2024-03-22T00:00:00",
+	                "REGISTRATIONDATE": "2024-03-22T00:00:00",
+	                "RELEASEDATE": "2024-03-22T00:00:00",
+	                "ORDERDATE": "2024-03-22T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2313238,
+	                    "PRODUCTID": 5848,
+	                    "QUANTITY": 15.0,
+	                    "CORRECTEDQUANTITY": 15.0,
+	                    "PRODUCTUNITID": 23335,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "ARK-2250L-U3A4",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 10100,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 416780,
+	                "SYMBOL": "SA0-WZ-251-2024",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "WZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 37917,
+	                "INVOICEID": 0,
+	                "ORDERID": 461034,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 3,
+	                "DOCUMENTSGROUP": 416780,
+	                "DESCRIPTION": "R17",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "Jana Henryka Dąbrowskiego ",
+	                "HOUSENO": "5",
+	                "LOCALNO": "u2",
+	                "POSTALCODE": "70-100",
+	                "CITY": "Szczecin",
+	                "COUNTRYCODE": "",
+	                "INTERNALDESCRIPTION": "R17",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 1,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "Sarach",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "Odbiór osobisty",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2024-03-25T00:00:00",
+	                "REGISTRATIONDATE": "2024-03-25T00:00:00",
+	                "RELEASEDATE": "2024-03-25T00:00:00",
+	                "ORDERDATE": "2024-03-25T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2319762,
+	                    "PRODUCTID": 3987,
+	                    "QUANTITY": 5.0,
+	                    "CORRECTEDQUANTITY": 5.0,
+	                    "PRODUCTUNITID": 18832,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "196803574821",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 7023,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }, {
+	            "DOCUMENTHEADER": {
+	                "ID": 426661,
+	                "SYMBOL": "SA0-WZ-352-2024",
+	                "WAREHOUSESYMBOL": "SA0",
+	                "DOCUMENTTYPE": "WZ ",
+	                "CORRECTEDDOCUMENTID": 0,
+	                "SUPLLIERID": 3120,
+	                "CLIENTID": 37917,
+	                "INVOICEID": 0,
+	                "ORDERID": 470634,
+	                "BRANCHSYMBOL": "SA0",
+	                "DELIVERYMETHOD": 3,
+	                "DOCUMENTSGROUP": 426661,
+	                "DESCRIPTION": "R27",
+	                "WEIGHT": 0.0,
+	                "VOLUME": 0.0,
+	                "STREET": "Jana Henryka Dąbrowskiego ",
+	                "HOUSENO": "5/U2",
+	                "LOCALNO": "",
+	                "POSTALCODE": "70-100",
+	                "CITY": "Szczecin",
+	                "COUNTRYCODE": "PL",
+	                "INTERNALDESCRIPTION": "R27",
+	                "SHIPPINGDESCRIPTION": "",
+	                "EMAIL": "",
+	                "FIRSTNAME": "",
+	                "SURNAME": "",
+	                "PRIORITY": 20,
+	                "RECEIVERID": 33494,
+	                "RECEIVER": "P.P.U.H.SARACH Jacek Biernat",
+	                "ISPOSSIBLETOPACKALLINONE": false,
+	                "ISPOSSIBLETOPACKINCOMPLETE": false,
+	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+	                "ISTOPACKASGIFT": false,
+	                "SHIPPINGLISTNUMBER": "",
+	                "FORWARDER": "Odbiór osobisty",
+	                "FILES": [],
+	                "PLANNEDREALIZATIONDATE": "2024-04-23T00:00:00",
+	                "REGISTRATIONDATE": "2024-04-23T00:00:00",
+	                "RELEASEDATE": "2024-04-24T00:00:00",
+	                "ORDERDATE": "2024-04-24T00:00:00"
+	            },
+	            "DOCUMENTPOSITIONS": [{
+	                    "ID": 2387958,
+	                    "PRODUCTID": 6001,
+	                    "QUANTITY": 1.0,
+	                    "CORRECTEDQUANTITY": 1.0,
+	                    "PRODUCTUNITID": 23743,
+	                    "EXTERNALSYMBOL": "",
+	                    "SERIALNUMBERS": "4977766764537",
+	                    "DETAILS": [{
+	                            "ID": 1,
+	                            "LOT": 10544,
+	                            "CURRENCY": "PLN",
+	                            "PRICE": 0.0,
+	                            "VALUE": 0.0
+	                        }
+	                    ]
+	                }
+	            ]
+	        }
+	    ],
+	    "NEXTRECORDID": 426833
 	},
 	"productprices": {
 		"ProductPrices": [
