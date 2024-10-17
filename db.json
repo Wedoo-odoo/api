@@ -80,132 +80,131 @@
 		]
 	},
 	"warehousedocuments": {
-    "WAREHOUSEDOCUMENTSLIST": [{
-	            "DOCUMENTHEADER": {
-	                "ID": 372876,
-	                "SYMBOL": "SA0-WZ-609-2023",
-	                "WAREHOUSESYMBOL": "SA0",
-	                "DOCUMENTTYPE": "WZ ",
-	                "CORRECTEDDOCUMENTID": 0,
-	                "SUPLLIERID": 3120,
-	                "CLIENTID": 37917,
-	                "INVOICEID": 0,
-	                "ORDERID": 401165,
-	                "BRANCHSYMBOL": "SA0",
-	                "DELIVERYMETHOD": 5,
-	                "DOCUMENTSGROUP": 372876,
-	                "DESCRIPTION": "",
-	                "WEIGHT": 0.0,
-	                "VOLUME": 0.0,
-	                "STREET": "",
-	                "HOUSENO": "",
-	                "LOCALNO": "",
-	                "POSTALCODE": "",
-	                "CITY": "",
-	                "COUNTRYCODE": "",
-	                "INTERNALDESCRIPTION": "",
-	                "SHIPPINGDESCRIPTION": "",
-	                "EMAIL": "",
-	                "FIRSTNAME": "",
-	                "SURNAME": "",
-	                "PRIORITY": 10,
-	                "RECEIVERID": 33494,
-	                "RECEIVER": "Piotr Frydenberg ",
-	                "ISPOSSIBLETOPACKALLINONE": false,
-	                "ISPOSSIBLETOPACKINCOMPLETE": false,
-	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
-	                "ISTOPACKASGIFT": false,
-	                "SHIPPINGLISTNUMBER": "",
-	                "FORWARDER": "Spedycja",
-	                "FILES": [],
-	                "PLANNEDREALIZATIONDATE": "2023-11-15T00:00:00",
-	                "REGISTRATIONDATE": "2023-11-15T00:00:00",
-	                "RELEASEDATE": "2023-11-15T00:00:00",
-	                "ORDERDATE": "2023-11-15T00:00:00"
-	            },
-	            "DOCUMENTPOSITIONS": [{
-	                    "ID": 2031445,
-	                    "PRODUCTID": 4403,
-	                    "QUANTITY": 1.0,
-	                    "CORRECTEDQUANTITY": 1.0,
-	                    "PRODUCTUNITID": 19700,
-	                    "EXTERNALSYMBOL": "",
-	                    "SERIALNUMBERS": "195713015417",
-	                    "DETAILS": [{
-	                            "ID": 1,
-	                            "LOT": 5849,
-	                            "CURRENCY": "PLN",
-	                            "PRICE": 0.0,
-	                            "VALUE": 0.0
-	                        }
-	                    ]
-	                }
-	            ]
-	        }, {
-	            "DOCUMENTHEADER": {
-	                "ID": 372895,
-	                "SYMBOL": "SA0-WZ-611-2023",
-	                "WAREHOUSESYMBOL": "SA0",
-	                "DOCUMENTTYPE": "WZ ",
-	                "CORRECTEDDOCUMENTID": 0,
-	                "SUPLLIERID": 3120,
-	                "CLIENTID": 37917,
-	                "INVOICEID": 0,
-	                "ORDERID": 401182,
-	                "BRANCHSYMBOL": "SA0",
-	                "DELIVERYMETHOD": 3,
-	                "DOCUMENTSGROUP": 372895,
-	                "DESCRIPTION": "r7",
-	                "WEIGHT": 0.0,
-	                "VOLUME": 0.0,
-	                "STREET": "dabrowskiego",
-	                "HOUSENO": "5",
-	                "LOCALNO": "",
-	                "POSTALCODE": "70-100",
-	                "CITY": "szczecin",
-	                "COUNTRYCODE": "",
-	                "INTERNALDESCRIPTION": "",
-	                "SHIPPINGDESCRIPTION": "",
-	                "EMAIL": "",
-	                "FIRSTNAME": "",
-	                "SURNAME": "",
-	                "PRIORITY": 20,
-	                "RECEIVERID": 33494,
-	                "RECEIVER": "sarach",
-	                "ISPOSSIBLETOPACKALLINONE": false,
-	                "ISPOSSIBLETOPACKINCOMPLETE": false,
-	                "ISPOSSIBLETOPACKBYMANYPEOPLE": false,
-	                "ISTOPACKASGIFT": false,
-	                "SHIPPINGLISTNUMBER": "",
-	                "FORWARDER": "Odbiór osobisty",
-	                "FILES": [],
-	                "PLANNEDREALIZATIONDATE": "2023-11-15T00:00:00",
-	                "REGISTRATIONDATE": "2023-11-15T00:00:00",
-	                "RELEASEDATE": "2023-11-15T00:00:00",
-	                "ORDERDATE": "2023-11-15T00:00:00"
-	            },
-	            "DOCUMENTPOSITIONS": [{
-	                    "ID": 2031612,
-	                    "PRODUCTID": 4014,
-	                    "QUANTITY": 1.0,
-	                    "CORRECTEDQUANTITY": 1.0,
-	                    "PRODUCTUNITID": 18859,
-	                    "EXTERNALSYMBOL": "",
-	                    "SERIALNUMBERS": "4977766807258",
-	                    "DETAILS": [{
-	                            "ID": 1,
-	                            "LOT": 7281,
-	                            "CURRENCY": "PLN",
-	                            "PRICE": 0.0,
-	                            "VALUE": 0.0
-	                        }
-	                    ]
-	                }
-	            ]
-	        } 
-	    ]
-	    "NEXTRECORDID": 426833
-	},
+		"WAREHOUSEDOCUMENTSLIST": [{
+					"DOCUMENTHEADER": {
+						"ID": 372876,
+						"SYMBOL": "SA0-WZ-609-2023",
+						"WAREHOUSESYMBOL": "SA0",
+						"DOCUMENTTYPE": "WZ ",
+						"CORRECTEDDOCUMENTID": 0,
+						"SUPLLIERID": 3120,
+						"CLIENTID": 37917,
+						"INVOICEID": 0,
+						"ORDERID": 401165,
+						"BRANCHSYMBOL": "SA0",
+						"DELIVERYMETHOD": 5,
+						"DOCUMENTSGROUP": 372876,
+						"DESCRIPTION": "",
+						"WEIGHT": 0.0,
+						"VOLUME": 0.0,
+						"STREET": "",
+						"HOUSENO": "",
+						"LOCALNO": "",
+						"POSTALCODE": "",
+						"CITY": "",
+						"COUNTRYCODE": "",
+						"INTERNALDESCRIPTION": "",
+						"SHIPPINGDESCRIPTION": "",
+						"EMAIL": "",
+						"FIRSTNAME": "",
+						"SURNAME": "",
+						"PRIORITY": 10,
+						"RECEIVERID": 33494,
+						"RECEIVER": "Piotr Frydenberg ",
+						"ISPOSSIBLETOPACKALLINONE": false,
+						"ISPOSSIBLETOPACKINCOMPLETE": false,
+						"ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+						"ISTOPACKASGIFT": false,
+						"SHIPPINGLISTNUMBER": "",
+						"FORWARDER": "Spedycja",
+						"FILES": [],
+						"PLANNEDREALIZATIONDATE": "2023-11-15T00:00:00",
+						"REGISTRATIONDATE": "2023-11-15T00:00:00",
+						"RELEASEDATE": "2023-11-15T00:00:00",
+						"ORDERDATE": "2023-11-15T00:00:00"
+					},
+					"DOCUMENTPOSITIONS": [{
+							"ID": 2031445,
+							"PRODUCTID": 4403,
+							"QUANTITY": 1.0,
+							"CORRECTEDQUANTITY": 1.0,
+							"PRODUCTUNITID": 19700,
+							"EXTERNALSYMBOL": "",
+							"SERIALNUMBERS": "195713015417",
+							"DETAILS": [{
+									"ID": 1,
+									"LOT": 5849,
+									"CURRENCY": "PLN",
+									"PRICE": 0.0,
+									"VALUE": 0.0
+								}
+							]
+						}
+					]
+				}, {
+					"DOCUMENTHEADER": {
+						"ID": 372895,
+						"SYMBOL": "SA0-WZ-611-2023",
+						"WAREHOUSESYMBOL": "SA0",
+						"DOCUMENTTYPE": "WZ ",
+						"CORRECTEDDOCUMENTID": 0,
+						"SUPLLIERID": 3120,
+						"CLIENTID": 37917,
+						"INVOICEID": 0,
+						"ORDERID": 401182,
+						"BRANCHSYMBOL": "SA0",
+						"DELIVERYMETHOD": 3,
+						"DOCUMENTSGROUP": 372895,
+						"DESCRIPTION": "r7",
+						"WEIGHT": 0.0,
+						"VOLUME": 0.0,
+						"STREET": "dabrowskiego",
+						"HOUSENO": "5",
+						"LOCALNO": "",
+						"POSTALCODE": "70-100",
+						"CITY": "szczecin",
+						"COUNTRYCODE": "",
+						"INTERNALDESCRIPTION": "",
+						"SHIPPINGDESCRIPTION": "",
+						"EMAIL": "",
+						"FIRSTNAME": "",
+						"SURNAME": "",
+						"PRIORITY": 20,
+						"RECEIVERID": 33494,
+						"RECEIVER": "sarach",
+						"ISPOSSIBLETOPACKALLINONE": false,
+						"ISPOSSIBLETOPACKINCOMPLETE": false,
+						"ISPOSSIBLETOPACKBYMANYPEOPLE": false,
+						"ISTOPACKASGIFT": false,
+						"SHIPPINGLISTNUMBER": "",
+						"FORWARDER": "Odbiór osobisty",
+						"FILES": [],
+						"PLANNEDREALIZATIONDATE": "2023-11-15T00:00:00",
+						"REGISTRATIONDATE": "2023-11-15T00:00:00",
+						"RELEASEDATE": "2023-11-15T00:00:00",
+						"ORDERDATE": "2023-11-15T00:00:00"
+					},
+					"DOCUMENTPOSITIONS": [{
+							"ID": 2031612,
+							"PRODUCTID": 4014,
+							"QUANTITY": 1.0,
+							"CORRECTEDQUANTITY": 1.0,
+							"PRODUCTUNITID": 18859,
+							"EXTERNALSYMBOL": "",
+							"SERIALNUMBERS": "4977766807258",
+							"DETAILS": [{
+									"ID": 1,
+									"LOT": 7281,
+									"CURRENCY": "PLN",
+									"PRICE": 0.0,
+									"VALUE": 0.0
+								}
+							]
+						}
+					]
+				} 
+			]
+		},
 	"productprices": {
 		"ProductPrices": [
 			{
